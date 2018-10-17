@@ -14,10 +14,10 @@ if(isset($_POST['mail']) && isset($_POST['pass'])){
 	$mail =  $data['mail'];
 	$pswd =  $data['password'];
 	if(md5($pass) === $pswd ){
-	echo "jsuis content";
+	
 	}
 	else{
-	echo "ntm";
+	echo "pas les même pass";
 	}
 
 }
