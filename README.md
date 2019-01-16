@@ -29,10 +29,10 @@ CREATE TABLE `utilisateurs` (
 
 ### Ensuite faite les Alter Table suivant :
 
-ALTER TABLE `message` ADD PRIMARY KEY (`id`);
-ALTER TABLE `utilisateurs` ADD PRIMARY KEY (`id`);
-ALTER TABLE `utilisateurs` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-ALTER TABLE `message` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+#### ALTER TABLE `message` ADD PRIMARY KEY (`id`);
+#### ALTER TABLE `utilisateurs` ADD PRIMARY KEY (`id`);
+#### ALTER TABLE `utilisateurs` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+#### ALTER TABLE `message` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 
 ## Copyright and License
