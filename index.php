@@ -17,7 +17,7 @@ date_default_timezone_set('Europe/Paris');
   
 }
 else {
-        //inclusion de l'insertion    
+    //inclusion de l'insertion    
  include("include/insert_inc.php");
 }
 ?>
